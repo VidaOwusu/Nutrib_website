@@ -80,8 +80,8 @@ nav{
   }
   
   #nav-links span a:hover{
-    border-bottom: 3px solid #ff5a00;
-    color: #ff5a00;
+    border-bottom: 3px solid #F9B9DF;
+    color: #F9B9DF;
   }
 
 nav button{
@@ -97,7 +97,7 @@ nav button{
 
 nav button:hover{
     color:#fff;
-    background-color: #B40000;
+    background-color: #F9B9DF;
     /* background-color: blueviolet; */
 
 }
@@ -130,9 +130,11 @@ header{
 }
 #subtext-one{
   font-size: 60px;
+  color:#F9B9DF;
 }
 #subtext-two{
   font-size: 60px;
+  color: #F9B9DF;
 }
 #about{
   display: flex;
@@ -162,7 +164,7 @@ header{
   text-align: center;
   }
   .sub-header span{
-    color:#ff5a00;
+    color:#eb31a0;
     font-size: 30px;
     padding-bottom: 20px;
     /* margin-bottom: 40px; */
@@ -195,17 +197,6 @@ header{
   padding: 20px;
   }
   
-  /* .flex-container-one {
-    display: flex;
-    flex-direction: row;
-    align-items: left;
-    row-gap: 90%;
-  }
-  .flex-container-one div{
-   background: none;
-   background-color: none;
-  } */
-  
   
   
   .flex-container  div {
@@ -218,10 +209,7 @@ header{
   
   }
   
-  /*.flex-container  img {
-    width: 100%;
-  height: auto; /* Maintain aspect ratio / display: block; / Remove any extra space below the image */
-  
+ 
   .flex-container img {
     width: 100%; /* Set the desired width */
     height: 290px; /* Set the desired height */
@@ -231,13 +219,13 @@ header{
 .sub-header1{
   display: flex;
   text-align: center;
-  color:#ff5a00;
+  color:#eb31a0;
 font-size: 40px;
 justify-content: center;
 
 }
 .head1:hover{
-  color: #d61c22;
+  color: #eb31a0;
 }
 .para1{
   /* margin: 140px; */
@@ -250,9 +238,6 @@ justify-content: center;
   margin: 0px;
 }
     
-  
-  
-  
   
     
     .head-one{
@@ -330,7 +315,7 @@ justify-content: center;
       line-height: 1.7;
     }
     .star-review{
-      color: #d61c22;
+      color: #F9B9DF;
     }
 
     #footer{
