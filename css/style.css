@@ -46,6 +46,7 @@
     width:100px;
     height: 80px;
 }
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -102,7 +103,7 @@ nav button:hover{
 }
 
 #hero{
-  background-image: url(../assests/images/hero_image2.jpg);
+  background-image: url(../assests/images/Screenshot_20241119-153203.jpg);
   width: 100vw;
   height: 100vh;
   background-repeat: no-repeat;
@@ -217,10 +218,38 @@ header{
   
   }
   
-  .flex-container  img {
+  /*.flex-container  img {
     width: 100%;
   height: auto; /* Maintain aspect ratio / display: block; / Remove any extra space below the image */
-    }
+  
+  .flex-container img {
+    width: 100%; /* Set the desired width */
+    height: 290px; /* Set the desired height */
+    object-fit: cover; /* Ensures the image fills the dimensions without distortion */
+    /*border-radius: 5px; /* Optional: Adds slightly rounded corners */
+}
+.sub-header1{
+  display: flex;
+  text-align: center;
+  color:#ff5a00;
+font-size: 40px;
+justify-content: center;
+
+}
+.head1:hover{
+  color: #d61c22;
+}
+.para1{
+  /* margin: 140px; */
+  text-align: left;
+  font-family: "Montserrat";
+  font-weight: 400px;
+  font-size: 15px;
+  /* line-height: 1.7px; */
+  color: #666666;
+  margin: 0px;
+}
+    
   
   
   
