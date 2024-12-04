@@ -641,4 +641,104 @@ justify-content: center;
     }
     
 
-   
+   /* Mobile-first styles */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  nav img {
+    width: 50px; /* Adjust logo size */
+  }
+  #nav-links {
+    flex-direction: column;
+    row-gap: 10px;
+  }
+  #nav-links span a {
+    font-size: 16px; /* Adjust font size */
+  }
+  nav button {
+    font-size: 14px;
+    padding: 8px 15px;
+  }
+
+  #hero {
+    background-size: cover; /* Ensure the hero image adjusts proportionally */
+    height: 60vh;
+  }
+  #subtext-one, #subtext-two {
+    font-size: 30px; /* Adjust hero text size */
+  }
+
+  #about {
+    flex-direction: column;
+    padding: 40px;
+  }
+  #about-image {
+    width: 90%;
+    height: auto;
+  }
+
+  .flex-container {
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 10px;
+  }
+  .flex-container div {
+    width: 100%;
+  }
+
+  .swiper-slide {
+    padding: 20px;
+  }
+
+  #footer {
+    flex-direction: column;
+    height: auto;
+  }
+  .footer {
+    grid-template-columns: 1fr; /* Stack footer columns */
+    gap: 20px;
+  }
+  .wrap-gallery-footer, .modal-gallery {
+    flex-direction: column;
+    align-items: center;
+  }
+  .item-gallery-footer, .item-gallery-side {
+    width: 90%;
+    height: auto; /* Allow image height to scale naturally */
+  }
+
+  .after-footer {
+    flex-direction: column;
+    text-align: center;
+    row-gap: 10px;
+  }
+}
+
+/* Extra small devices (max-width: 480px) */
+@media (max-width: 480px) {
+  #subtext-one, #subtext-two {
+    font-size: 24px;
+  }
+
+  #hero {
+    height: 50vh;
+  }
+
+  nav {
+    padding: 5px 10px;
+  }
+  nav img {
+    width: 40px;
+  }
+
+  .swiper-slide p {
+    font-size: 10px;
+  }
+
+  .after-footer {
+    font-size: 12px;
+  }
+}
