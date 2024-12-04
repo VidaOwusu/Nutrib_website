@@ -117,7 +117,17 @@ var swiper = new Swiper(".mySwiper", {
     },
   });
 
-  // Toggle navigation on hamburger click
-document.getElementById('hamburger-menu').addEventListener('click', function() {
-  document.getElementById('nav-links').classList.toggle('show');
-});
+  //document.addEventListener('DOMContentLoaded', function() {
+    // Target the hamburger menu and the nav-links container
+    const hamburgerMenu = document.getElementById('hamburger-menu');
+    const navLinks = document.getElementById('nav-links');
+
+    // Check if both elements exist before adding event listener
+    if (hamburgerMenu && navLinks) {
+        hamburgerMenu.addEventListener('click', function() {
+            // Toggle the 'show' class to display/hide the nav links
+            navLinks.classList.toggle('show');
+        });
+    }
+
+
