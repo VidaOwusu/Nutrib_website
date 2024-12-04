@@ -185,7 +185,7 @@ header{
  
   .flex-container img {
     width: 100%; /* Set the desired width */
-    height: 350px; /* Set the desired height */
+    height: 390px; /* Set the desired height */
     object-fit: cover; /* Ensures the image fills the dimensions without distortion */
     /*border-radius: 5px; /* Optional: Adds slightly rounded corners */
 }
@@ -242,7 +242,7 @@ justify-content: center;
       font-weight: 400;
       font-size: 18px;
       color: #666666;
-      line-height: 1.7;
+      /*line-height: 1.7;*/
     }
     .swiper {
       width: 100%;
@@ -260,12 +260,12 @@ justify-content: center;
       padding: 120px;
     }
     
-    .swiper-slide img {
+    /*.swiper-slide img {
       position: relative;
       margin: auto;
       background-size: cover;
       /* object-fit: cover; */
-    }
+    
     .swiper-slide p{
       font-family: Montserrat;
       font-weight: 400;
@@ -275,18 +275,18 @@ justify-content: center;
       letter-spacing: 1px;
     }
 
-    .image-one{
+    /*.image-one{
       width: 9%;
       height: 100px;
       border: #d61c22 solid;
       border-radius: 50%;
-    }
+    }*/
     .txt12{
       font-family: Montserrat;
       font-weight: 400;
       font-size: 18px;
       color: #666666;
-      line-height: 1.7;
+      /*line-height: 1.7;*/
     }
     .star-review{
       color: #F9B9DF;
