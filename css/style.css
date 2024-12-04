@@ -676,14 +676,14 @@ padding-top: 80px;
   #subtext-one {
     font-size: 28px; /* Adjust hero title size */
     font-weight: bold;
-    color: #fff; /* Ensure text is readable against background */
+    color: #eb31a0; /* Ensure text is readable against background */
     margin-bottom: 10px;
   }
 
   #subtext-two {
     font-size: 18px; /* Smaller subtitle size */
     font-weight: normal;
-    color: #ddd; /* Subtle contrast for subtitle */
+    color: #eb31a0; /* Subtle contrast for subtitle */
     margin-bottom: 20px;
   }
 
