@@ -653,11 +653,7 @@ justify-content: center;
     background-color: #fff; /* Optional: Add a background color for better visibility */
   }
 
-  nav img {
-    width: 60px; /* Resize logo for mobile */
-    margin-bottom: 10px;
-  }
-
+  
   #nav-links {
     display: none;
    
@@ -692,22 +688,6 @@ justify-content: center;
     color: #ddd; /* Subtle contrast for subtitle */
     margin-bottom: 20px;
   }
-
-  .hero-button {
-    font-size: 14px;
-    padding: 10px 20px;
-    background-color: #007BFF; /* Primary button color */
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-
-  .hero-button:hover {
-    background-color: #0056b3; /* Hover effect */
-  }
-
-
 
   #about {
     flex-direction: column;
