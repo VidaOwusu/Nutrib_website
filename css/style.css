@@ -639,37 +639,104 @@ justify-content: center;
       color: #666666;
       line-height: 1.7;
     }
+
+
     
 
    /* Mobile-first styles */
+/* Adjusted Navbar Styles for Mobile */
 @media (max-width: 768px) {
   nav {
     flex-direction: column;
     align-items: center;
-    padding: 10px 20px;
-  }
-  nav img {
-    width: 50px; /* Adjust logo size */
-  }
-  #nav-links {
-    flex-direction: column;
-    row-gap: 10px;
-  }
-  #nav-links span a {
-    font-size: 16px; /* Adjust font size */
-  }
-  nav button {
-    font-size: 14px;
-    padding: 8px 15px;
+    padding: 10px 15px;
+    background-color: #fff; /* Optional: Add a background color for better visibility */
   }
 
+  nav img {
+    width: 60px; /* Resize logo for mobile */
+    margin-bottom: 10px;
+  }
+
+  #nav-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px; /* Add spacing between links */
+    margin: 10px 0;
+  }
+
+  #nav-links span a {
+    font-size: 16px;
+    color: #333; /* Ensure good contrast for text */
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+
+  #nav-links span a:hover {
+    background-color: #f4f4f4; /* Highlight effect on hover */
+    border-radius: 5px;
+  }
+
+  nav button {
+    font-size: 14px;
+    padding: 10px 15px;
+    background-color: #007BFF; /* Primary button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+
+  nav button:hover {
+    background-color: #0056b3; /* Darker hover effect */
+  }
+}
+
+  /* Adjusted Hero Section Styles for Mobile */
+@media (max-width: 768px) {
   #hero {
-    background-size: cover; /* Ensure the hero image adjusts proportionally */
-    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Center-align text for better appearance */
+    background-position: center;
+    background-size: cover;
+    height: 60vh; /* Adjust hero height */
+    padding: 10px;
   }
-  #subtext-one, #subtext-two {
-    font-size: 30px; /* Adjust hero text size */
+
+  #subtext-one {
+    font-size: 28px; /* Adjust hero title size */
+    font-weight: bold;
+    color: #fff; /* Ensure text is readable against background */
+    margin-bottom: 10px;
   }
+
+  #subtext-two {
+    font-size: 18px; /* Smaller subtitle size */
+    font-weight: normal;
+    color: #ddd; /* Subtle contrast for subtitle */
+    margin-bottom: 20px;
+  }
+
+  .hero-button {
+    font-size: 14px;
+    padding: 10px 20px;
+    background-color: #007BFF; /* Primary button color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .hero-button:hover {
+    background-color: #0056b3; /* Hover effect */
+  }
+}
+
 
   #about {
     flex-direction: column;
