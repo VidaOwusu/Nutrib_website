@@ -116,3 +116,8 @@ var swiper = new Swiper(".mySwiper", {
       prevEl: ".swiper-button-prev",
     },
   });
+
+  // Toggle navigation on hamburger click
+document.getElementById('hamburger-menu').addEventListener('click', function() {
+  document.getElementById('nav-links').classList.toggle('show');
+});
