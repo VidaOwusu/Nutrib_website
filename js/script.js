@@ -128,6 +128,10 @@ var swiper = new Swiper(".mySwiper", {
             // Toggle the 'show' class to display/hide the nav links
             navLinks.classList.toggle('show');
         });
-    }
-
+    };
+    hamburgerMenu.addEventListener('click', function() {
+      console.log('Hamburger clicked!');
+      navLinks.classList.toggle('show');
+  });
+  
 
