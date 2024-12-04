@@ -681,7 +681,7 @@ justify-content: center;
   nav button {
     font-size: 14px;
     padding: 10px 15px;
-    background-color: #007BFF; /* Primary button color */
+    background-color: #F9B9DF; /* Primary button color */
     color: white;
     border: none;
     border-radius: 5px;
@@ -690,12 +690,13 @@ justify-content: center;
   }
 
   nav button:hover {
-    background-color: #0056b3; /* Darker hover effect */
+    background-color: #F9B9DF; /* Darker hover effect */
   }
-}
+
 
   /* Adjusted Hero Section Styles for Mobile */
-@media (max-width: 768px) {
+/* Adjusted Hero Section Styles for Mobile */
+
   #hero {
     display: flex;
     flex-direction: column;
@@ -735,7 +736,7 @@ justify-content: center;
   .hero-button:hover {
     background-color: #0056b3; /* Hover effect */
   }
-}
+
 
 
   #about {
