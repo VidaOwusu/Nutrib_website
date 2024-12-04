@@ -8,6 +8,11 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+#logo{
+  width:100px;
+  height: 80px;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -616,41 +621,14 @@ justify-content: center;
    /* Mobile-first styles */
 /* Adjusted Navbar Styles for Mobile */
 @media (max-width: 768px) {
-  #nav-links {
-    display: none; /* Hide by default */
-    flex-direction: column;
-    background-color: white;
-    position: absolute;
-    top: 80px;
-    left: 0;
-    width: 100%;
-    padding: 10px 0;
-}
+  #nav-links,
+  nav button {
+      display: none;
+  }
 
-#nav-links.show {
-    display: flex; /* Show when 'show' class is added */
-}
-
-#hamburger-menu {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    width: 30px;
-    height: 25px;
-    cursor: pointer;
-}
-
-#hamburger-menu span {
-    background-color: #333;
-    height: 3px;
-    width: 100%;
-    border-radius: 5px;
-}
-
-
-#nav-links.show {
-    display: flex;
-}
+  .hamburger {
+      display: flex;
+  }
 
 
 /* Padding to prevent overlap */
