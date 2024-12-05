@@ -77,6 +77,22 @@ nav button:hover {
   border-radius: 5px;
 }
 
+/* Default styles for larger screens */
+#nav-links span {
+  display: inline-block;
+}
+
+.hide-on-mobile {
+  display: inline-block;
+}
+
+.show-on-mobile {
+  display: none;
+}
+
+
+
+
 #hero{
   background-image: url(../assests/images/Screenshot_20241119-153203.jpg);
   width: 100vw;
@@ -621,14 +637,32 @@ justify-content: center;
    /* Mobile-first styles */
 /* Adjusted Navbar Styles for Mobile */
 @media (max-width: 768px) {
-  #nav-links,
-  nav button {
+
+  #nav-links span {
       display: none;
   }
 
-  .hamburger {
-      display: flex;
+  .show-on-mobile {
+      display: inline-block;
   }
+
+  #logo {
+      width: 80px;
+      height: auto;
+  }
+
+  button {
+      display: none;
+  }
+
+  nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+  }
+
+
 
 
 /* Padding to prevent overlap */
