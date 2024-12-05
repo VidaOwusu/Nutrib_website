@@ -77,7 +77,6 @@ nav button:hover {
   border-radius: 5px;
 }
 
-/* Default styles for larger screens */
 #nav-links span {
   display: inline-block;
 }
@@ -89,7 +88,6 @@ nav button:hover {
 .show-on-mobile {
   display: none;
 }
-
 
 
 
@@ -639,30 +637,29 @@ justify-content: center;
 @media (max-width: 768px) {
 
   #nav-links span {
-      display: none;
-  }
+    display: none;
+}
 
-  .show-on-mobile {
-      display: inline-block;
-  }
+.show-on-mobile {
+    display: inline-block;
+}
 
-  #logo {
-      width: 80px;
-      height: auto;
-  }
+#logo {
+    display: block;
+    width: 80px;
+    height: auto;
+}
 
-  button {
-      display: none;
-  }
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
 
-  nav {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 10px 20px;
-  }
-
-
+button {
+    display: none;
+}
 
 
 /* Padding to prevent overlap */
