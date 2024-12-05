@@ -643,12 +643,12 @@ justify-content: center;
 }
 
 .show-on-mobile {
-    display: flex;
+    display: inline-block;
 }
 
 #logo {
     display: block;
-    width: 60px;
+    width: 40px;
     height: auto;
 }
 
