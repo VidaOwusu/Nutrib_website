@@ -120,12 +120,13 @@ header{
 #subtext-one{
   font-size: 60px;
   /*color:#F9B9DF;*/
-  color: #eb31a0;
+  /*color: #FEAAB9;*/
+  color: #f869c1;
 
 }
 #subtext-two{
   font-size: 60px;
-  color: #eb31a0;
+  color: #f869c1;
 }
 #about{
   display: flex;
@@ -155,7 +156,7 @@ header{
   text-align: center;
   }
   .sub-header span{
-    color:#eb31a0;
+    color:#f869c1;
     font-size: 30px;
     padding-bottom: 20px;
     /* margin-bottom: 40px; */
@@ -211,7 +212,8 @@ header{
 .sub-header1{
   display: flex;
   text-align: center;
-  color:#eb31a0;
+  /*color:#eb31a0;*/
+  color:#f869c1;
 font-size: 40px;
 justify-content: center;
 
@@ -239,8 +241,8 @@ justify-content: center;
   /* font-weight: 200; */
   /* font-weight: bold; */
   font-size: 22px;
-  color: #666666;
-  /*color: #333333;*/
+  /*color: #666666;*/
+  color: #4F272F;
   text-transform: uppercase;
   letter-spacing: 3px;
   padding-top: 15px;
@@ -637,7 +639,7 @@ justify-content: center;
 @media (max-width: 768px) {
 
   #nav-links span {
-    display: none;
+    display: flex;
 }
 
 .show-on-mobile {
