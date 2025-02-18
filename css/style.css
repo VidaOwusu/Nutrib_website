@@ -729,14 +729,27 @@ padding-top: 80px;
     grid-template-columns: 1fr; /* Stack footer columns */
     gap: 20px;
   }
-  .wrap-gallery-footer, .modal-gallery {
-    flex-direction: column;
-    align-items: center;
+  .wrap-gallery-footer {
+    display: flex;
+    flex-wrap: nowrap; /* Ensure images remain in one row */
+    justify-content: space-between; /* Spread images across the container */
+    width: 100%; /* Make sure the container spans full width */
   }
-  .item-gallery-footer, .item-gallery-side {
-    width: 90%;
-    height: auto; /* Allow image height to scale naturally */
+  
+  .item-gallery-footer {
+    flex: 1; /* Allow images to grow and share the space equally */
+    margin: 0; /* Remove any extra margins */
+    padding: 0; /* Remove padding */
   }
+  
+  .item-gallery-footer img {
+    width: 100%; /* Ensure the images cover their container */
+    height: 100%; /* Prevent any extra spacing */
+    object-fit: cover; /* Ensure the images fill their containers without distortion */
+    display: block; /* Remove gaps caused by inline-block behavior */
+  }
+  
+  
 
   .after-footer {
     flex-direction: column;
